@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616B43B31BA9FF020084D9BB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 616B43B21BA9FF020084D9BB /* README.md */; settings = {ASSET_TAGS = (); }; };
 		61B492761BA9F3CF00537B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B492751BA9F3CF00537B12 /* main.m */; };
 		61B492791BA9F3CF00537B12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B492781BA9F3CF00537B12 /* AppDelegate.m */; };
 		61B4927C1BA9F3CF00537B12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B4927B1BA9F3CF00537B12 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616B43B21BA9FF020084D9BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		61B492711BA9F3CF00537B12 /* GestoSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestoSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B492751BA9F3CF00537B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61B492771BA9F3CF00537B12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		61B492681BA9F3CF00537B12 = {
 			isa = PBXGroup;
 			children = (
+				616B43B21BA9FF020084D9BB /* README.md */,
 				61B492731BA9F3CF00537B12 /* GestoSwipe */,
 				61B492721BA9F3CF00537B12 /* Products */,
 			);
@@ -110,6 +113,7 @@
 				TargetAttributes = {
 					61B492701BA9F3CF00537B12 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7W2L6LA635;
 					};
 				};
 			};
@@ -151,6 +155,7 @@
 			files = (
 				61B4927C1BA9F3CF00537B12 /* ViewController.m in Sources */,
 				61B492791BA9F3CF00537B12 /* AppDelegate.m in Sources */,
+				616B43B31BA9FF020084D9BB /* README.md in Sources */,
 				61B492761BA9F3CF00537B12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestoSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.eti.fabricionogueira.GestoSwipe;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestoSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.eti.fabricionogueira.GestoSwipe;
@@ -298,6 +305,7 @@
 				61B4928A1BA9F3D000537B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
